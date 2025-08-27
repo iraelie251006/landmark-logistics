@@ -35,7 +35,7 @@ export const services = [
       icon: <Globe className="h-6 w-6" />
     },
     {
-      title: 'Air Cargo',
+      title: 'Air Freight',
       description: 'Our airline capabilities are based on our excellent relationships in partnership with our associates and with the most reliable airlines in the industry. The air freight services that we handle are global from Europe, Asia, Africa and America.',
       icon: <Zap className="h-6 w-6" />
     }
