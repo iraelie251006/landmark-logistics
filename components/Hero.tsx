@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Badge } from './ui/badge';
+import Link from 'next/link';
 
 const images = [
   '/images/shipping-cargo.jpg',
@@ -40,7 +41,7 @@ export default function Hero() {
       ))}
 
 
-<div className="absolute top-0 left-0 w-full h-full bg-black/70 z-20"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-20"></div>
 
       <div className="absolute top-0 left-0 w-full h-full  flex flex-col justify-center items-center text-center text-white px-4 z-30">
         <Badge className='bg-gradient-to-r from-green-500 to-blue-600 font-poppins font-semibold tracking-wider'>
@@ -52,6 +53,12 @@ export default function Hero() {
         <p className="text-lg md:text-2xl mb-6 font-semibold">
           Point to Point, on time & cost effective.
         </p>
+        <Link
+              href="/services"
+                className="px-6 py-3 border border-white font-semibold rounded-2xl hover:bg-white hover:text-blue-700 transition"
+              >
+                Our Services
+        </Link>
         
       </div>
     </section>
