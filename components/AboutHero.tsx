@@ -15,7 +15,7 @@ const AboutHero = () => {
     
             {/* Main Heading */}
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight max-w-4xl">
-              Delivering Beyond Borders
+              Delivering <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">Beyond Borders</span>
             </h1>
     
             {/* Subheading */}
@@ -28,7 +28,7 @@ const AboutHero = () => {
             {/* Call to Action */}
             <div className="mt-8 flex gap-4">
               <Link
-                href="/contact"
+                href="/team"
                 className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-2xl shadow-lg hover:bg-gray-100 transition"
               >
                 Contact Us

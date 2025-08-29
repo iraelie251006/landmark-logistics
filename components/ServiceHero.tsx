@@ -1,3 +1,4 @@
+import { Badge } from "./ui/badge"
 
 const ServiceHero = () => {
   return (
@@ -6,6 +7,9 @@ const ServiceHero = () => {
       <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative z-10 max-w-3xl px-4">
+            <Badge className="text-sm uppercase tracking-widest text-slate-800 mb-4 bg-white font-bold">
+              What We Offer
+            </Badge>
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
           Our <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">Expertise</span>
         </h1>
