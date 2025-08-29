@@ -1,3 +1,4 @@
+import Benefits from '@/components/Benefits'
 import ServiceHero from '@/components/ServiceHero'
 import WhatWeOffer from '@/components/WhatWeOffer'
 import React from 'react'
@@ -7,6 +8,7 @@ const page = () => {
     <section>
         <ServiceHero />
         <WhatWeOffer />
+        <Benefits />
     </section>
   )
 }
