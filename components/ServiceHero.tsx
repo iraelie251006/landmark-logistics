@@ -7,7 +7,7 @@ const ServiceHero = () => {
 
       <div className="relative z-10 max-w-3xl px-4">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-          Our <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">Services</span>
+          Our <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">Expertise</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-gray-200">
           From air and ocean freight to warehousing and logistics, we provide seamless solutions that move your business forward.

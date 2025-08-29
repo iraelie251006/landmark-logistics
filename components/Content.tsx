@@ -1,4 +1,4 @@
-import { Award, CheckCircle, Clock, Globe, Shield, Truck, Users, Zap } from "lucide-react";
+import { Award, CheckCircle, Clock, Globe, Globe2, Package, Plane, Shield, Ship, Truck, Users, Warehouse, Zap } from "lucide-react";
 
 export const whyUsFeatures = [
     {
@@ -25,7 +25,7 @@ export const whyUsFeatures = [
 
 export const services = [
     {
-      title: 'Ground Transportation',
+      title: 'Road Transportation',
       description: 'Our cross-Border services are efficient and ensure that shipments reach their destinations in a timely',
       icon: <Truck className="h-6 w-6" />
     },
@@ -82,5 +82,62 @@ export const values = [
       icon: <Globe className="h-8 w-8 text-primary" />,
       title: 'Global Reach',
       description: 'Comprehensive logistics solutions spanning across continents and industries.'
+    }
+  ];
+
+export const AllServices = [
+    {
+      icon: <Truck className="h-12 w-12 text-primary" />,
+      title: 'Road Transportation',
+      description: 'Comprehensive road transport solutions with real-time tracking and flexible delivery options.',
+      features: ['24/7 Tracking', 'Same-Day Delivery', 'Flexible Scheduling', 'Temperature Control']
+    },
+    {
+      icon: <Ship className="h-12 w-12 text-primary" />,
+      title: 'Ocean Freight',
+      description: 'Cost-effective sea freight services for large shipments with full cargo management.',
+      features: ['Full Container Load', 'Less Container Load', 'Port-to-Port', 'Door-to-Door']
+    },
+    {
+      icon: <Plane className="h-12 w-12 text-primary" />,
+      title: 'Air Cargo',
+      description: 'Fast and secure air transport for time-sensitive and high-value shipments.',
+      features: ['Express Delivery', 'Secure Handling', 'Global Network', 'Priority Processing']
+    },
+    {
+      icon: <Warehouse className="h-12 w-12 text-primary" />,
+      title: 'Warehousing',
+      description: 'State-of-the-art storage facilities with inventory management and distribution services.',
+      features: ['Climate Control', 'Security Systems', 'Inventory Management', 'Pick & Pack']
+    },
+    {
+      icon: <Package className="h-12 w-12 text-primary" />,
+      title: 'Supply Chain Management',
+      description: 'End-to-end supply chain optimization to streamline your operations.',
+      features: ['Demand Planning', 'Vendor Management', 'Cost Optimization', 'Risk Mitigation']
+    },
+    {
+      icon: <Globe2 className="h-12 w-12 text-primary" />,
+      title: 'International Trade',
+      description: 'Complete international shipping solutions with customs clearance and documentation.',
+      features: ['Customs Clearance', 'Documentation', 'Compliance', 'Multi-Modal Transport']
+    }
+  ];
+
+export const benefits = [
+    {
+      icon: <Clock className="h-8 w-8 text-secondary" />,
+      title: 'Time Efficiency',
+      description: 'Optimized routes and processes to ensure your shipments arrive on time, every time.'
+    },
+    {
+      icon: <Shield className="h-8 w-8 text-secondary" />,
+      title: 'Secure Handling',
+      description: 'Advanced security protocols and insurance coverage to protect your valuable cargo.'
+    },
+    {
+      icon: <Globe2 className="h-8 w-8 text-secondary" />,
+      title: 'Global Network',
+      description: 'Extensive partner network enabling seamless logistics operations worldwide.'
     }
   ];
