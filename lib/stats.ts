@@ -6,7 +6,7 @@ function increaseNumberByYear(startYear: number) {
   return yearsPassed;
 }
 
-const experience = increaseNumberByYear(2014); 
+const experience = increaseNumberByYear(1991); 
 
 export const stats = [
     { number: `${experience}+`, label: 'Years Experience' },
