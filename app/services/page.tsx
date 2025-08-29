@@ -1,9 +1,10 @@
+import ServiceHero from '@/components/ServiceHero'
 import React from 'react'
 
 const page = () => {
   return (
     <section>
-        <h1 className='text-5xl flex justify-center'>Our Services</h1>
+        <ServiceHero />
     </section>
   )
 }
