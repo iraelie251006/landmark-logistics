@@ -1,11 +1,11 @@
-import React from 'react'
+import AboutHero from '@/components/AboutHero';
 
 const page = () => {
   return (
     <section>
-        <h1 className='text-5xl flex justify-center'>About Us</h1>
+      <AboutHero />
     </section>
-  )
+  );
 }
 
 export default page
