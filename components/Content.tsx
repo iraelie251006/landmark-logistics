@@ -1,4 +1,4 @@
-import { Clock, Globe, Shield, Truck, Zap } from "lucide-react";
+import { Award, CheckCircle, Clock, Globe, Shield, Truck, Users, Zap } from "lucide-react";
 
 export const whyUsFeatures = [
     {
@@ -59,5 +59,28 @@ export const testimonials = [
       company: 'E-commerce Solutions',
       rating: 5,
       text: 'Their technology platform and customer service are simply unmatched.'
+    }
+  ];
+
+export const values = [
+    {
+      icon: <CheckCircle className="h-8 w-8 text-primary" />,
+      title: 'Reliability',
+      description: 'We consistently deliver on our promises with unwavering dependability.'
+    },
+    {
+      icon: <Award className="h-8 w-8 text-primary" />,
+      title: 'Excellence',
+      description: 'We strive for the highest standards in every aspect of our service.'
+    },
+    {
+      icon: <Users className="h-8 w-8 text-primary" />,
+      title: 'Customer Focus',
+      description: 'Your success is our priority. We tailor solutions to meet your specific needs.'
+    },
+    {
+      icon: <Globe className="h-8 w-8 text-primary" />,
+      title: 'Global Reach',
+      description: 'Comprehensive logistics solutions spanning across continents and industries.'
     }
   ];

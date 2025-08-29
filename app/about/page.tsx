@@ -1,5 +1,6 @@
 import AboutHero from '@/components/AboutHero';
 import CompanyStory from '@/components/CompanyStory';
+import OurValues from '@/components/OurValues';
 import Stats from '@/components/Stats';
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
       <AboutHero />
       <Stats />
       <CompanyStory />
+      <OurValues />
     </section>
   );
 }
