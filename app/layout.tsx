@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playFair.className} ${poppins.variable} antialiased`}
+        className={`${playFair.variable} ${poppins.className} antialiased`}
       >
         <Navbar />
         {children}
