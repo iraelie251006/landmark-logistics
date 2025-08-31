@@ -1,13 +1,11 @@
-import Culture from '@/components/Culture'
-import React from 'react'
+import TeamHero from "@/components/TeamHero";
 
-const page = () => {
+const Index = () => {
   return (
-    <section>
-        <h1 className='text-5xl flex justify-center'>Our Team</h1>
-        <Culture />
-    </section>
-  )
-}
+    <div className="min-h-screen bg-background">
+      <TeamHero />
+    </div>
+  );
+};
 
-export default page
+export default Index;
