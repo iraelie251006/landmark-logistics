@@ -37,6 +37,14 @@
     --input: 214 31.8% 91.4%;
     --ring: 218 100% 50%;
 
+    /* Professional color palette */
+    --corporate-blue: 215 85% 35%;
+    --corporate-blue-light: 215 85% 45%;
+    --corporate-blue-dark: 215 85% 25%;
+    --corporate-gray: 215 15% 45%;
+    --corporate-gray-light: 215 15% 96%;
+    --success-green: 142 71% 45%;
+
     /* Brand Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
