@@ -63,7 +63,14 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			corporate: {
+				blue: 'hsl(var(--corporate-blue))',
+				'blue-light': 'hsl(var(--corporate-blue-light))',
+				'blue-dark': 'hsl(var(--corporate-blue-dark))',
+				gray: 'hsl(var(--corporate-gray))',
+				'gray-light': 'hsl(var(--corporate-gray-light))',
+			},
   		}
   	}
   },
