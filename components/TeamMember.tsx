@@ -31,7 +31,7 @@ export const TeamMember = ({ name, title, phone, isManager = false }: TeamMember
             <div className="flex items-center space-x-2 text-corporate-gray">
               <Phone className="w-4 h-4 flex-shrink-0" />
               <Link 
-                href={`https://wa.me/${phone}/Hello%20I%20you%20are%20doing%20great%20today.`}
+                href={`https://wa.me/${phone}?text=Hello%20I%20hope%20you%20are%20doing%20great%20today.`}
                 target="_blank"
                 className="text-sm hover:text-corporate-blue transition-colors font-medium"
               >
