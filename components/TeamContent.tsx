@@ -65,11 +65,13 @@ const TeamContent = () => {
         title="Managing Director" 
         phone="+256777133215"
         isManager
+        imageURL='/partners/IAN.jpeg'
       />
       <TeamMember 
-        name="BAPFAGUHEKA DESIRE" 
+        name="BAPHAKURERA DESIRE" 
         title="Assistant Operations Manager" 
         phone="+256774224578"
+        imageURL='/partners/Baphakurera.jpeg'
       />
       <TeamMember 
         name="MWESIGA MARTIN" 
