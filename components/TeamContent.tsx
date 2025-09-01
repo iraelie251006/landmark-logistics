@@ -31,9 +31,9 @@ const TeamContent = () => {
     {/* Dubai Port Office */}
     <OfficeSection title="Dubai Port Office" location="DPW">
       <TeamMember 
-        name="TUYISHIME GILBERT" 
+        name="TUYISHIME GILBERT PIERRE" 
         title="Port Operations Manager" 
-        phone="+250785277720"
+        phone="+250785277420"
         isManager
       />
     </OfficeSection>
@@ -90,6 +90,7 @@ const TeamContent = () => {
         name="SIBONIYO CONFIANE" 
         title="European Union Representative" 
         phone="+48515412010"
+        imageURL='/partners/Confi.jpeg'
       />
     </OfficeSection>
 

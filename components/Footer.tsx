@@ -1,5 +1,6 @@
 import { Truck, Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
 import Link from 'next/link';
+import { LinkPreview } from './ui/link-preview';
 
 export default function Footer() {
   return (
@@ -71,10 +72,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2025 Landmark Logistics Ltd. All rights reserved.
-          </p>
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center flex justify-between max-sm:flex-col text-slate-400"> 
+          <div className='mt-5'>
+            <p className='text-sm'>© 2025 Landmark Logistics Ltd. All rights reserved.</p>
+          </div>
+          <div className="mt-2 pt-2 text-sm text-slate-400 flex gap-1 items-center justify-center">
+           Developed by{" "}
+            <LinkPreview
+              url={
+                "https://www.linkedin.com/in/niyubwayo-irakoze-elie-14b003284/"
+              }
+              imageSrc="/LinkedInElie.jpeg"
+              isStatic
+              className="font-bold text-white tracking-wider"
+            >
+              Irakoze Elie
+            </LinkPreview>{" "}
+          </div>
         </div>
       </div>
     </footer>
