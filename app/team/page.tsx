@@ -1,3 +1,4 @@
+import Culture from "@/components/Culture";
 import TeamContent from "@/components/TeamContent";
 import TeamHero from "@/components/TeamHero";
 
@@ -6,6 +7,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <TeamHero />
       <TeamContent />
+      <Culture />
     </div>
   );
 };
