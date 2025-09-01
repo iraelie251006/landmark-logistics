@@ -10,18 +10,18 @@ const TeamContent = () => {
       <TeamMember 
         name="SIBONIYO Theophile" 
         title="Managing Director" 
-        phone="250788465059"
+        phone="+250788465059"
         isManager
       />
       <TeamMember 
         name="KARIRENGE Prudencienne" 
         title="Operations" 
-        phone="250788688342"
+        phone="+250788688342"
       />
       <TeamMember 
         name="IKUZWE THIERRY" 
         title="Operations" 
-        phone="250780463394"
+        phone="+250780463394"
       />
     </OfficeSection>
 
@@ -30,7 +30,7 @@ const TeamContent = () => {
       <TeamMember 
         name="TUYISHIME GILBERT" 
         title="Port Operations Manager" 
-        phone="250785277720"
+        phone="+250785277720"
         isManager
       />
     </OfficeSection>
@@ -40,7 +40,7 @@ const TeamContent = () => {
       <TeamMember 
         name="BEMERIKI MARIE CHANTAL" 
         title="Branch Manager" 
-        phone="250787250050"
+        phone="+250787250050"
         isManager
       />
     </OfficeSection>
@@ -49,7 +49,7 @@ const TeamContent = () => {
       <TeamMember 
         name="RUGWIZA CELESTIN" 
         title="Branch Manager" 
-        phone="250788513889"
+        phone="+250788513889"
         isManager
       />
     </OfficeSection>
@@ -59,18 +59,18 @@ const TeamContent = () => {
       <TeamMember 
         name="GUMISIRIZA IAN" 
         title="Managing Director" 
-        phone="256777133215"
+        phone="+256777133215"
         isManager
       />
       <TeamMember 
         name="BAPFAGUHEKA DESIRE" 
         title="Assistant Operations Manager" 
-        phone="256774224578"
+        phone="+256774224578"
       />
       <TeamMember 
         name="MWESIGA MARTIN" 
         title="Operations Manager" 
-        phone="256777094500"
+        phone="+256777094500"
         isManager
       />
     </OfficeSection>
@@ -80,12 +80,12 @@ const TeamContent = () => {
       <TeamMember 
         name="HAKIRABAKE CYPRIEN" 
         title="United States Representative" 
-        phone="1(405)926-6841"
+        phone="+1(405)926-6841"
       />
       <TeamMember 
         name="SIBONIYO CONFIANE" 
         title="European Union Representative" 
-        phone="48515412010"
+        phone="+48515412010"
       />
     </OfficeSection>
 
@@ -94,12 +94,12 @@ const TeamContent = () => {
       <TeamMember 
         name="Maître Natukunda Patience" 
         title="Legal Advisor" 
-        phone="250784397240"
+        phone="+250784397240"
       />
       <TeamMember 
         name="Maître Masengesho Alliance" 
         title="Legal Advisor" 
-        phone="250791760887"
+        phone="+250791760887"
       />
     </OfficeSection>
   </section>

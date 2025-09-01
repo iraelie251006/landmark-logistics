@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, User } from "lucide-react";
+import { MessageCircle, Phone, User } from "lucide-react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 interface TeamMemberProps {
   name: string;
@@ -11,7 +12,7 @@ interface TeamMemberProps {
 
 export const TeamMember = ({ name, title, phone, isManager = false }: TeamMemberProps) => {
   return (
-    <Card className="group relative overflow-hidden bg-gradient-to-br from-card to-corporate-gray-light border-border/50 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-professional)] transition-[var(--transition-smooth)] hover:border-corporate-blue/30">
+    <Card className="group relative overflow-hidden bg-gradient-to-br from-card to-corporate-gray-light shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-professional)] transition-[var(--transition-smooth)] border-border max-sm:border-corporate-blue/30 hover:border-corporate-blue/30">
       <CardContent className={`p-6 ${isManager ? "bg-accent" : "bg-accent/50"}`}>
         <div className="flex items-start space-x-4">
           <div className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center ${
@@ -29,15 +30,26 @@ export const TeamMember = ({ name, title, phone, isManager = false }: TeamMember
               {title}
             </p>
             <div className="flex items-center space-x-2 text-corporate-gray">
-              <Phone className="w-4 h-4 flex-shrink-0" />
+              <Phone className="w-4 h-4 flex-shrink-0 fill-blue-600" />
               <Link 
-                href={`https://wa.me/${phone}?text=Hello%20I%20hope%20you%20are%20doing%20great%20today.`}
+                href={`tel:${phone}`}
                 target="_blank"
                 className="text-sm hover:text-corporate-blue transition-colors font-medium"
               >
                 {phone}
               </Link>
             </div>
+            <Link href={`https://wa.me/${phone.slice(1)}?text=Hello%20I%20hope%20you%20are%20doing%20great%20today.`}>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full border-corporate-blue/30 text-corporate-blue hover:bg-corporate-blue hover:text-primary-foreground mt-5"
+              >
+                <MessageCircle className="w-4 h-4 mr-2" />
+                Chat With Us
+              </Button>
+            </Link>
+            
           </div>
         </div>
         {isManager && (
