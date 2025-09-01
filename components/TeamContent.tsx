@@ -80,7 +80,7 @@ const TeamContent = () => {
       <TeamMember 
         name="HAKIRABAKE CYPRIEN" 
         title="United States Representative" 
-        phone="+1(405)926-6841"
+        phone="+14059266841"
       />
       <TeamMember 
         name="SIBONIYO CONFIANE" 
