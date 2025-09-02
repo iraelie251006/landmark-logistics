@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               What We Offer
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl max-w-2xl mx-auto">
               From local deliveries to global supply chains, we&apos;ve got you covered
             </p>
           </div>
@@ -23,7 +23,7 @@ const WhatWeOffer = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-4 text-center">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground mb-6 text-center">
+                <p className="mb-6 text-center">
                   {service.description}
                 </p>
                 
@@ -31,7 +31,7 @@ const WhatWeOffer = () => {
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm">
                       <ArrowRight className="h-4 w-4 text-primary mr-2" />
-                      <span className="text-muted-foreground">{feature}</span>
+                      <span>{feature}</span>
                     </li>
                   ))}
                 </ul>

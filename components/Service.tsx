@@ -10,7 +10,7 @@ const Service = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Core Services
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl max-w-2xl mx-auto">
               Comprehensive logistics solutions tailored to your business needs
             </p>
           </div>
@@ -26,7 +26,7 @@ const Service = () => {
                     {service.title}
                   </h3>
                 </div>
-                <p className="text-muted-foreground mb-6">
+                <p className="mb-6">
                   {service.description}
                 </p>
               </div>

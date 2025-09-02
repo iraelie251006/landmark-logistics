@@ -9,7 +9,7 @@ const CompanyStory = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Our Story
               </h2>
-              <div className="space-y-4 text-muted-foreground">
+              <div className="space-y-4">
                 <p>
                   Founded in 2014, Landmark Logistics Ltd began as a vision to revolutionize the 
                   logistics industry through innovative solutions and unwavering commitment to excellence.

@@ -10,7 +10,7 @@ const Stats = () => {
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
                   {stat.number}
                 </div>
-                <div className="text-muted-foreground font-medium">
+                <div className="font-medium">
                   {stat.label}
                 </div>
               </div>

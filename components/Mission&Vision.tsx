@@ -11,7 +11,7 @@ const MissionVision = () => {
                 <Target className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="leading-relaxed">
                 To provide innovative, reliable, and cost-effective logistics solutions that enable our clients 
                 to focus on their core business while we handle the complexities of global supply chain management. 
                 We strive to build lasting partnerships based on trust, transparency, and exceptional service.
@@ -23,7 +23,7 @@ const MissionVision = () => {
                 <Eye className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="leading-relaxed">
                 To be the world&apos;s most trusted logistics partner, recognized for our innovation, sustainability, 
                 and commitment to connecting businesses across the globe. We envision a future where efficient 
                 logistics enables seamless global trade and economic growth for all.

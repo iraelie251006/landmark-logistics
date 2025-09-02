@@ -9,7 +9,7 @@ const OurValues = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Core Values
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl max-w-2xl mx-auto">
               These principles guide every decision we make and every service we provide
             </p>
           </div>
@@ -23,7 +23,7 @@ const OurValues = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {value.title}
                 </h3>
-                <p className="text-muted-foreground">
+                <p>
                   {value.description}
                 </p>
               </div>

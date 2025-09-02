@@ -33,10 +33,10 @@ export const TeamMember = ({ name, title, phone, isManager = false, imageURL }: 
             }`}>
               {name}
             </h3>
-            <p className="text-corporate-gray text-sm mb-3 capitalize">
+            <p className="text-sm mb-3 capitalize">
               {title}
             </p>
-            <div className="flex items-center space-x-2 text-corporate-gray">
+            <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4 flex-shrink-0 fill-blue-600" />
               <Link 
                 href={`tel:${phone}`}
