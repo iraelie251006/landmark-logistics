@@ -48,12 +48,6 @@ const TeamContent = () => {
         isManager
         imageURL='/partners/Bemeriki.jpeg'
       />
-      <TeamMember 
-        name="MUGISHA ALLAN"
-        title='Branch Operations'
-        phone='+250780321976'
-        imageURL='/partners/Allan.jpeg'
-      />
     </OfficeSection>
 
     <OfficeSection title="Rusumo Branch Office">
@@ -85,6 +79,12 @@ const TeamContent = () => {
         title="Operations Manager" 
         phone="+256777094500"
         isManager
+      />
+      <TeamMember 
+        name="MUGISHA ALLAN"
+        title='Branch Operations'
+        phone='+250780321976'
+        imageURL='/partners/Allan.jpeg'
       />
     </OfficeSection>
 
