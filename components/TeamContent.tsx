@@ -64,9 +64,8 @@ const TeamContent = () => {
     <OfficeSection title="Landmark Logistics" location="Plot 15 Robert Mugabe Rd, Mbuya Kampala, Uganda">
       <TeamMember 
         name="GUMISIRIZA IAN" 
-        title="Managing Director" 
+        title="Operations Director" 
         phone="+256777133215"
-        isManager
         imageURL='/partners/IAN.jpeg'
       />
       <TeamMember 
