@@ -30,7 +30,7 @@ const MobileNavigation = async () => {
         <Link href="/" className="flex items-center gap-1">
           <Image
             src="/landmark.jpeg"
-            width={300}
+            width={400}
             height={300}
             alt="Logo"
           />

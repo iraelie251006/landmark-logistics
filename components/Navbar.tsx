@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between border-b-2 max-md:px-4 px-10'>
         <div className='ml-14 max-md:ml-0'>
-            <Image src="/landmark.jpeg" alt='landmark logistics ltd logo' width={500} height={400} />
+            <Image src="/landmark.jpeg" alt='landmark logistics ltd logo' width={500} height={400} className='object-contain'/>
         </div>
         <div className='flex items-center max-md:hidden mr-14'>
           {sidebarLinks.map(({label, route}) => (
