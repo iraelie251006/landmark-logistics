@@ -35,6 +35,7 @@ const TeamContent = () => {
         title="Port Operations Manager" 
         phone="+250785277420"
         isManager
+        imageURL='/partners/Gilbert.jpeg'
       />
     </OfficeSection>
 
@@ -46,6 +47,12 @@ const TeamContent = () => {
         phone="+250787250050"
         isManager
         imageURL='/partners/Bemeriki.jpeg'
+      />
+      <TeamMember 
+        name="MUGISHA ALLAN"
+        title='Branch Operations'
+        phone='+250780321976'
+        imageURL='/partners/Allan.jpeg'
       />
     </OfficeSection>
 
@@ -87,6 +94,7 @@ const TeamContent = () => {
         name="HAKIRABAKE CYPRIEN" 
         title="United States Representative" 
         phone="+14059266841"
+        imageURL='/partners/Hakirabake.jpeg'
       />
       <TeamMember 
         name="SIBONIYO CONFIANE" 
