@@ -56,6 +56,7 @@ const TeamContent = () => {
         title="Branch Manager" 
         phone="+250788513889"
         isManager
+        imageURL='/partners/Celestin.jpeg'
       />
     </OfficeSection>
 
