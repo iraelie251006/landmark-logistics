@@ -98,7 +98,7 @@ const TeamContent = () => {
         imageURL='/partners/Hakirabake.jpeg'
       />
       <TeamMember 
-        name="SIBONIYO CONFIANE" 
+        name="SIBONIYO CONFIANCE" 
         title="European Union Representative" 
         phone="+48515412010"
         imageURL='/partners/Confi.jpeg'
@@ -108,15 +108,15 @@ const TeamContent = () => {
     {/* Legal Advisors */}
     <OfficeSection title="Legal Advisors">
       <TeamMember 
-        name="Maître Natukunda Patience" 
+        name="Natukunda Patience" 
         title="Legal Advisor" 
-        phone="+250784397240"
+        phone="+250733112826"
         imageURL='/partners/Patience.jpeg'
       />
       <TeamMember 
-        name="Maître Masengesho Alliance" 
+        name="Masengesho Alliance" 
         title="Legal Advisor" 
-        phone="+250791760887"
+        phone="+250725312826"
         imageURL='/partners/Alliance.jpeg'
       />
     </OfficeSection>

@@ -12,5 +12,5 @@ export const stats = [
     { number: `${experience}+`, label: 'Years Experience' },
     { number: '10K+', label: 'Happy Clients' },
     { number: '50K+', label: 'Deliveries Completed' },
-    { number: '50+', label: 'Contries Served' },
+    { number: '50+', label: 'Countries Served' },
   ];
