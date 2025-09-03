@@ -19,9 +19,10 @@ export default function Footer() {
               Your trusted partner in global logistics solutions. We deliver excellence in every shipment.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="h-5 w-5 text-gray-400 hover:text-[#00b09b] cursor-pointer transition-colors" />
-              <Twitter className="h-5 w-5 text-gray-400 hover:text-[#00b09b] cursor-pointer transition-colors" />
-              <Linkedin className="h-5 w-5 text-gray-400 hover:text-[#00b09b] cursor-pointer transition-colors" />
+              <Link href="https://www.linkedin.com/in/siboniyo-theophile-75860314b/">
+                <Linkedin className="h-5 w-5 text-gray-400 hover:text-[#00b09b] cursor-pointer transition-colors" />
+              </Link>
+              
             </div>
           </div>
 
