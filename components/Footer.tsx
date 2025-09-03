@@ -1,4 +1,4 @@
-import { Truck, Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Truck, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 import Link from 'next/link';
 import { LinkPreview } from './ui/link-preview';
 
