@@ -16,7 +16,7 @@ const TeamContent = () => {
       />
       <TeamMember 
         name="KARIRENGE Prudencienne" 
-        title="Operations" 
+        title="Operations Manager" 
         phone="+250788688342"
         imageURL='/partners/Prudencienne.jpeg'
       />
@@ -32,7 +32,7 @@ const TeamContent = () => {
     <OfficeSection title="Dubai Port Office" location="DPW">
       <TeamMember 
         name="TUYISHIME GILBERT PIERRE" 
-        title="Port Operations Manager" 
+        title="Port Operations" 
         phone="+250785277420"
         isManager
         imageURL='/partners/Gilbert.jpeg'
@@ -78,6 +78,7 @@ const TeamContent = () => {
         name="MWESIGA MARTIN" 
         title="Operations Manager" 
         phone="+256777094500"
+        imageURL='/partners/Martin.jpeg'
         isManager
       />
       <TeamMember 
